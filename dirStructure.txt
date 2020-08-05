@@ -1,0 +1,4 @@
+directory structure --> express --> GIT -->
+Routers and Controllers --> View Engine -->
+Partials and Layouts --> Static Files --> 
+MongoDB
