@@ -2,4 +2,13 @@ body{
     background-image: linear-gradient(to top right,blue,purple);
     background-repeat: no-repeat;
     color: white;
+    height: 100vh;
+}
+h1{
+    border: 2px solid white;
+    display: inline-block;
+    padding: 5px;
+}
+h1::selection{
+    color: red;
 }
