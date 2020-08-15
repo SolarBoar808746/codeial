@@ -2,3 +2,24 @@ ul li a{
     text-decoration: none;
     color: red;
 }
+header div h1{
+    color: red;
+    font-size: 2.5rem;
+    margin: 0;
+}
+header div{
+    display: inline-block;
+}
+div ul{
+    list-style-type: none;
+}
+div ul li{
+    display: inline-block;
+    margin: 0 4px 0 4px;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: aqua;
+}

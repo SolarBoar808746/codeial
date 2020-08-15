@@ -1,7 +1,8 @@
 <link rel="stylesheet" href="/css/_header.css">
 <header>
-    Page header
-    <ul>
+    <div><h1>Codeial</h1></div>
+    <div>
+        <ul>
         <% if (locals.user) {%>
             <li>
                 <a href="/users/profile"><%= user.name %></a>
@@ -17,5 +18,7 @@
                 <a href="/users/sign-up">Sign Up</a>
             </li>
         <%}%>
-    </ul>
+        </ul>
+    </div>
+    
 </header>
